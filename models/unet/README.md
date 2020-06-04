@@ -23,3 +23,8 @@ To run the model on test data:
 python models/unet/run_unet.py --data-path DATA --data-split test --checkpoint checkpoint/best_model.pt --challenge CHALLENGE --out-dir reconstructions_test
 ```
 The outputs will be saved to `reconstructions_test` directory which can be uploaded for submission.
+
+To run the efficient net to train - 
+``` bash
+python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path Path/to/data --exp-dir checkpoint_efficientnet --batch-size 32 --lr 0.1
+```

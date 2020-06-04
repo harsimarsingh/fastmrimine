@@ -239,7 +239,7 @@ class EfficientNet(nn.Module):
         self._conv_head = Conv2d(in_channels, out_channels, kernel_size=1, bias=False)
         self._bn1 = nn.BatchNorm2d(num_features=out_channels, momentum=bn_mom, eps=bn_eps)
 
-        # Final linear layer
+        # Finallayer
         self._avg_pooling = nn.AdaptiveAvgPool2d(1)
         #self._dropout = nn.Dropout(self._global_params.dropout_rate)
         #self._fc = nn.Conv2d(out_channels, out_channels,kernel_size=1)

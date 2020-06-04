@@ -1,0 +1,1000 @@
+ 1030  ls
+ 1031  cd ..
+ 1032  ls
+ 1033  mv common models/
+ 1034  mv data models/
+ 1035  ls
+ 1036  cd models
+ 1037  ls
+ 1038  cd ..
+ 1039  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1040  cd
+ 1041  ls
+ 1042  cd project/fastMRI/
+ 1043  ls
+ 1044  cd models/
+ 1045  s
+ 1046  ls
+ 1047  mv common unet/
+ 1048  mv data unet/
+ 1049  cd unet
+ 1050  ls
+ 1051  clear
+ 1052  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1053  ls
+ 1054  cd ..
+ 1055  ls
+ 1056  mv mri_model.py unet/
+ 1057  ls
+ 1058  cd unet/
+ 1059  clear
+ 1060  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1061  pip install runstats
+ 1062  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1063  clear
+ 1064  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1065  python /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions  
+ 1066  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions 
+ 1067  clear
+ 1068  python3 /home/harsimar/project/fastMRI/models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir /home/harsimar/project/reconstructions --checkpoint MODEL
+ 1069  clear
+ 1070  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsiar/project/results 
+ 1071  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results 
+ 1072  pip install ismrmrd
+ 1073  clear
+ 1074  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results 
+ 1075  ls
+ 1076  jupyter notebook --no-browser --port=8000
+ 1077  export PATH=~/anaconda3/bin:$PATH
+ 1078  jupyter notebook --no-browser --port=8000
+ 1079  export PATH=~/anaconda3/bin:$PATH
+ 1080  source activate harsimar
+ 1081  nvidia-smi
+ 1082  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results 
+ 1083  ls
+ 1084  cd project/fastMRI/
+ 1085  ls
+ 1086  cd models/
+ 1087  cd unet/
+ 1088  ls
+ 1089  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1090  ls
+ 1091  export PATH=~/anaconda3/bin:$PATH
+ 1092  source activate harsimar
+ 1093  jupyter notebook --no-browser --port=8000
+ 1094  nvidia-smi -1
+ 1095  nvidia-smi 
+ 1096  ls
+ 1097  export PATH=~/anaconda3/bin:$PATH
+ 1098  source activate harsimar
+ 1099  jupyter notebook --no-browser --port=8000
+ 1100  export PATH=~/anaconda3/bin:$PATH
+ 1101  source activate harsimar
+ 1102  export PATH=~/anaconda3/bin:$PATHclear
+ 1103  clear
+ 1104  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp var_net --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1105  cd project/fastMRI/models/unet/
+ 1106  clear
+ 1107  cd project/fastMRI/models/unet/
+ 1108  clear
+ 1109  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp var_net --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1110  python
+ 1111  cd
+ 1112  ls
+ 1113  export PATH=~/anaconda3/bin:$PATH
+ 1114  ls
+ 1115  cd
+ 1116  clear
+ 1117  python
+ 1118  source deactivate
+ 1119  export PATH=~/anaconda3/bin:$PATH
+ 1120  source activate harsimar
+ 1121  export PATH=~/anaconda3/bin:$PATH
+ 1122  source activate harsimar
+ 1123  clear
+ 1124  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1125  cd project/fastMRI/models/unet/
+ 1126  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1127  nvidia-smi
+ 1128  ls
+ 1129  cd ..
+ 1130  ls
+ 1131  cd varnet
+ 1132  ls
+ 1133  mv varnet.py ../unet
+ 1134  ls
+ 1135  cd ..
+ 1136  cd unet
+ 1137  ls
+ 1138  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp varnet --mask-type random --batch-size 16 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 10
+ 1139  export PATH=~/anaconda3/bin:$PATH
+ 1140  source activate harsimar
+ 1141  jupyter notebook --no-browser --port=8000
+ 1142  export PATH=~/anaconda3/bin:$PATH
+ 1143  source activate harsimar
+ 1144  ls
+ 1145  cd project/fastMRI/models/unet/
+ 1146  clear
+ 1147  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp var_net --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1148  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp var_net --mask-type random --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1149  python3 varnet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp var_net --exp-dir /home/harsimar/project/results --num-epochs 5
+ 1150  nvidia-smi
+ 1151  nvidia-smi -l 1
+ 1152  ls
+ 1153  export PATH=~/anaconda3/bin:$PATH
+ 1154  source activate harsimar
+ 1155  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 20
+ 1156  cd project/fastMRI/models/unet/
+ 1157  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 8 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 20
+ 1158  clear
+ 1159  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 20
+ 1160  export PATH=~/anaconda3/bin:$PATH
+ 1161  source activate harsimar
+ 1162  jupyter notebook --no-browser --port=8000
+ 1163  cd
+ 1164  ls
+ 1165  cd project
+ 1166  git clone https://github.com/ZJUGiveLab/UNet-Version
+ 1167  cd
+ 1168  export PATH=~/anaconda3/bin:$PATH
+ 1169  source activate harsimar
+ 1170  jupyter notebook --no-browser --port=8000
+ 1171  export PATH=~/anaconda3/bin:$PATH
+ 1172  source activate harsimar
+ 1173  clear
+ 1174  cd project/fastMRI/models/unet/
+ 1175  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 20
+ 1176  clear
+ 1177  cd
+ 1178  cd project/results/
+ 1179  ls
+ 1180  rm -r lightning_logs/
+ 1181  cd
+ 1182  clear
+ 1183  cd project/fastMRI/models/unet/
+ 1184  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 20 --checkpoint /home/harsimar/project/checkpoint_model
+ 1185  clear
+ 1186  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 5 --checkpoint /home/harsimar/project/checkpoint_model
+ 1187  nohup
+ 1188  nohup --help
+ 1189  nohup long-running-process &
+ 1190  screen
+ 1191  export PATH=~/anaconda3/bin:$PATH
+ 1192  source activate harsimar
+ 1193  cd project/fastMRI/models/unet/
+ 1194  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_1/checkpoints/ 
+ 1195  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_1/checkpoints/ 
+ 1196  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_1/checkpoints/model 
+ 1197  clear
+ 1198  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50 nohup &
+ 1199  exit
+ 1200  export PATH=~/anaconda3/bin:$PATH
+ 1201  source activate harsimar
+ 1202  screen
+ 1203  ls
+ 1204  export PATH=~/anaconda3/bin:$PATH
+ 1205  source activate harsimar
+ 1206  jupyter notebook --no-browser --port=8000
+ 1207  cd
+ 1208  export PATH=~/anaconda3/bin:$PATH
+ 1209  source activate harsimar
+ 1210  ls
+ 1211  cd project/
+ 1212  ls
+ 1213  cd result
+ 1214  cd results
+ 1215  ls
+ 1216  cd lightning_logs/
+ 1217  ls
+ 1218  cd
+ 1219  cd project/
+ 1220  ls
+ 1221  cd results/
+ 1222  cd lightning_logs/
+ 1223  ls
+ 1224  clear
+ 1225  cd version_1
+ 1226  ls
+ 1227  ls -l
+ 1228  ls
+ 1229  tensorboard --log-dir /
+ 1230  clear
+ 1231  tensorboard --logdir= /
+ 1232  tensorboard --logdir= 
+ 1233  cd ..
+ 1234  ls
+ 1235  tensorboard --logdir = /version_1/
+ 1236  tensorboard
+ 1237  tensorboard --logdir = /home/harsimar/project/results/lightning_logs/version_1/
+ 1238  tensorboard --logdir = /home/harsimar/project/results/lightning_logs/version_1/ servve
+ 1239  tensorboard --logdir = /home/harsimar/project/results/lightning_logs/version_1/ dev
+ 1240  tensorboard dev --logdir = /home/harsimar/project/results/lightning_logs/version_1/ dev
+ 1241  tensorboard serve --logdir = /home/harsimar/project/results/lightning_logs/version_1/ dev
+ 1242  tensorboard -h serve
+ 1243  tensorboard serve --logdir = /home/harsimar/project/results/lightning_logs/version_1/
+ 1244  tensorboard serve --logdir /home/harsimar/project/results/lightning_logs/version_1/
+ 1245  w
+ 1246  nvidia-smi
+ 1247  top
+ 1248  w
+ 1249  logout
+ 1250  export PATH=~/anaconda3/bin:$PATH
+ 1251  source activate harsimar
+ 1252  jupyter notebook --no-browser --port=8090
+ 1253  df -h
+ 1254  nvidia-smi
+ 1255  cd bagchi_code/
+ 1256  cd ISIC_Workshop/
+ 1257  pwd
+ 1258  nvidia-smi
+ 1259  clear
+ 1260  w
+ 1261  logout
+ 1262  nvidia-smi 
+ 1263  screen
+ 1264  screen -r 
+ 1265  export PATH=~/anaconda3/bin:$PATH
+ 1266  source activate harsimar
+ 1267  clear
+ 1268  jupyter notebook --no-browser --port=8000
+ 1269  jupyter notebook --no-browser --port=8001
+ 1270  cd
+ 1271  ls
+ 1272  cd project/
+ 1273  ls
+ 1274  cd results/
+ 1275  ls
+ 1276  cd lightning_logs/
+ 1277  ls
+ 1278  cd version_3
+ 1279  cls
+ 1280  ls
+ 1281  cd checkpoints/
+ 1282  ls
+ 1283  screen -r
+ 1284  cd
+ 1285  export PATH=~/anaconda3/bin:$PATH
+ 1286  source activate harsimar
+ 1287  cd project/fastMRI/models/unet/
+ 1288  python train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/
+ 1289  python train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt
+ 1290  cd 
+ 1291  cd dataset/
+ 1292  ls
+ 1293  mv singlecoil_test_v2 singlecoil_test
+ 1294  ls
+ 1295  cd
+ 1296  cd project/fastMRI/models/unet/
+ 1297  python train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt
+ 1298  python train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch=47.ckpt
+ 1299  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch=47.ckpt
+ 1300  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1301  cd
+ 1302  cd project/results/lightning_logs/c
+ 1303  cd project/results/lightning_logs/version_3/checkpoints/
+ 1304  ls
+ 1305  cp epoch\=47.ckpt /home/harsimar/project/fastMRI/models/unet/
+ 1306  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1307  cd
+ 1308  cd project/fastMRI/models/unet/
+ 1309  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1310  cleaer
+ 1311  clear
+ 1312  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1313  clear
+ 1314  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1315  gcc --version
+ 1316  nvidia-smi
+ 1317  nvcc --version
+ 1318  clear
+ 1319  nano .bashrc
+ 1320  clear
+ 1321  logout
+ 1322  source activate harsimar
+ 1323  clear
+ 1324  ls
+ 1325  cd bagchi_code/
+ 1326  cd ISIC_Workshop/
+ 1327  ls
+ 1328  clear
+ 1329  jupyter notebook --no-browser --port=8890
+ 1330  w
+ 1331  nvidia-smi
+ 1332  w
+ 1333  clear
+ 1334  exit
+ 1335  clear
+ 1336  cd bagchi_code/
+ 1337  cd ISIC_Workshop/
+ 1338  ls
+ 1339  ls *tsne*
+ 1340  pwd
+ 1341  logout
+ 1342  export PATH=~/anaconda3/bin:$PATH
+ 1343  source activate harsimar
+ 1344  jupyter notebook --no-browser --port=8090
+ 1345  jupyter notebook --no-browser --port=8890
+ 1346  export PATH=~/anaconda3/bin:$PATH
+ 1347  source activate harsimar
+ 1348  conda install tsnecuda cuda101 -c cannylab
+ 1349  conda install -c anaconda seaborn 
+ 1350  python
+ 1351  nvidia-smi
+ 1352  cd bagchi_code/
+ 1353  cd ISIC_Workshop/
+ 1354  rm -r avg_tsne
+ 1355  rm -r stack_tsne
+ 1356  rm -r avg_tsne
+ 1357  rm -r stack_tsne
+ 1358  ls
+ 1359  nvidia-smi
+ 1360  cd dataset
+ 1361  ls
+ 1362  screen -r
+ 1363  screen 184619.pts-3
+ 1364  export PATH=~/anaconda3/bin:$PATH
+ 1365  source activate harsimar
+ 1366  jupyter notebook --no-browser --port=8000
+ 1367  screen -r
+ 1368  ls
+ 1369  export PATH=~/anaconda3/bin:$PATH
+ 1370  source activate harsimar
+ 1371  jupyter notebook --no-browser --port=8000
+ 1372  source activate harsimar
+ 1373  jupyter notebook --no-browser --port=8000
+ 1374  ls
+ 1375  cd project/
+ 1376  ls
+ 1377  cd results/lightning_logs/
+ 1378  ls
+ 1379  cd version_0
+ 1380  ls
+ 1381  cd checkpoints/
+ 1382  ls
+ 1383  cd ..
+ 1384  cd version_1
+ 1385  cd checkpoints/
+ 1386  ls
+ 1387  cd ..
+ 1388  cd version_2
+ 1389  cd checkpoints/
+ 1390  ls
+ 1391  cd ..
+ 1392  cd version_3
+ 1393  ls
+ 1394  cd checkpoints/
+ 1395  ls
+ 1396  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1397  cd
+ 1398  cd project/fastMRI/
+ 1399  cd models/unet/
+ 1400  ls
+ 1401  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1402  python
+ 1403  export PATH=~/anaconda3/bin:$PATH
+ 1404  source activate harsimar
+ 1405  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt 
+ 1406  ls
+ 1407  cd dataset/
+ 1408  ls
+ 1409  cd singlecoil_test
+ 1410  ls
+ 1411  cd
+ 1412  ls
+ 1413  mkdir fastmriorig
+ 1414  cd fastmriorig/
+ 1415  ls
+ 1416  git clone https://github.com/facebookresearch/fastMRI
+ 1417  cd fastMRI/
+ 1418  export PATH=~/anaconda3/bin:$PATH
+ 1419  source activate harsimar
+ 1420  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt
+ 1421  cd project/fastMRI/models/unet/
+ 1422  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt
+ 1423  nvidia-smi
+ 1424  cd fastmriorig/fastMRI/
+ 1425  source activate harsimar
+ 1426  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path DATA --exp unet --out-dir reconstructions --checkpoint MODEL 
+ 1427  cp /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt /home/harsimar/fastmriorig/fastMRI/
+ 1428  ls
+ 1429  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1430  python
+ 1431  PYTHONPATH = /home/harsimar/fastmriorig/fastMRI/ python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1432  PYTHONPATH = /home/harsimar/fastmriorig/fastMRI/
+ 1433  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1434  python
+ 1435  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1436  cd ..
+ 1437  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1438  cd fastMRI/
+ 1439  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt 
+ 1440  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1441  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1442  PYTHONPath
+ 1443  python PYTHONPATH
+ 1444  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1445  python models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1446  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1447  python3
+ 1448  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1449  cd
+ 1450  mkdir fastmriold
+ 1451  cd fastmrio
+ 1452  cd fastmriold
+ 1453  git clone https://github.com/Nilanshrajput/FastMRI-Challenge
+ 1454  ls
+ 1455  cd FastMRI-Challenge/
+ 1456  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split test --checkpoint checkpoint/best_model.pt --challenge CHALLENGE --out-dir reconstructions_test
+ 1457  ls
+ 1458  cd fastMRI/
+ 1459  ls
+ 1460  cp /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt /home/harsimar/fastmriold/FastMRI-Challenge/fastMRI
+ 1461  ls
+ 1462  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split test --checkpoint epoch\=47.ckpt --challenge singlecoil --out-dir reconstructions_0
+ 1463  python
+ 1464  clear
+ 1465  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split test --checkpoint epoch\=47.ckpt --challenge singlecoil --out-dir reconstructions_0
+ 1466  clear
+ 1467  source activate harsimar
+ 1468  jupyter notebook --no-browser --port=8000
+ 1469  jupyter notebook --no-browser --port=8001
+ 1470  exit
+ 1471  source activate harsimar
+ 1472  cd project/fastMRI/models/unet/
+ 1473  python3 train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --out-dir reconstructions --checkpoint /home/harsimar/project/results/lightning_logs/version_3/checkpoints/epoch\=47.ckpt
+ 1474  history > history.txt
+ 1475  cd fastmriold/FastMRI-Challenge/fastMRI/checkpoint_1/
+ 1476  tensorboard --logdir = /
+ 1477  source activate harsimar
+ 1478  tensorboard --logdir = /
+ 1479  tensorboard serve --logdir = /
+ 1480  tensorboard serve --logdir /
+ 1481  tensorboard serve --logdir / --bind_all
+ 1482  tensorboard serve --logdir summary/ --bind_all
+ 1483  clear
+ 1484  cd ..
+ 1485  source activate harsimar
+ 1486  jupyter notebook --no-browser --port=8001
+ 1487  jupyter notebook --no-browser --port=8002
+ 1488  screen -r
+ 1489  screen 106270.pts-9.harsimar
+ 1490  screen 106270.pts-9
+ 1491  screen -r 106270.pts-9.harsimar
+ 1492  tmux
+ 1493  tmux ls
+ 1494  tmux attach -t 0
+ 1495  tmux ls
+ 1496  tmux rename-session -t 0 unetpptrain
+ 1497  tmux ls
+ 1498  exit
+ 1499  source activate harsimar
+ 1500  cd fastmriold/FastMRI-Challenge/fastMRI/
+ 1501  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1
+ 1502  conda install tensorboardX
+ 1503  pip install tensorboardX
+ 1504  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1
+ 1505  clear
+ 1506  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1
+ 1507  nvidia-smi
+ 1508  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1 --batch-size= 12
+ 1509  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1 --batch-size 12
+ 1510  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset/ --exp-dir checkpoint_1 --batch-size 8
+ 1511  screen 
+ 1512  exit
+ 1513  source activate harsimar
+ 1514  tmux ls
+ 1515  tmux attach -t unetpptrain
+ 1516  tmux ls
+ 1517  exit
+ 1518  tmux ls
+ 1519  exit
+ 1520  cd
+ 1521  ls
+ 1522  source activate harsimar
+ 1523  cd fastmrior
+ 1524  cd fastmriorig/
+ 1525  cd fastMRI/
+ 1526  ls
+ 1527  cd
+ 1528  cd fastmriold/FastMRI-Challenge/fastMRI/
+ 1529  ls
+ 1530  cd checkpoint_0
+ 1531  ls -l
+ 1532  cd ..
+ 1533  cd checkpoint_1
+ 1534  ls -l
+ 1535  cd .. 
+ 1536  cd checkpoint_0
+ 1537  ls -l
+ 1538  cd summary/
+ 1539  ls
+ 1540  tensorboarX --logdir /
+ 1541  tensorboardX --logdir /
+ 1542  tensorboardX --log-dir /
+ 1543  pip install tensorboardX
+ 1544  tensorboardX
+ 1545  tensorboard serve --logdir /
+ 1546  tensorboard serve --logdir / --bindall
+ 1547  tensorboard serve --logdir / --bind-all
+ 1548  tensorboard serve --logdir / --bind_all
+ 1549  ls
+ 1550  cd ..
+ 1551  tensorboard serve --logdir summary/ --bind_all
+ 1552  source activate harsimar
+ 1553  jupyter notebook --no-browser --port=8000
+ 1554  nvidia-smi
+ 1555  source activate harsimar
+ 1556  ls
+ 1557  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1558  cd fastmriorig/
+ 1559  ls
+ 1560  cd fastMRI/
+ 1561  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1562  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /
+ 1563  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint 
+ 1564  ls
+ 1565  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint epoch\=47.ckpt
+ 1566  python3 models/unet/train_unet.py --mode test --challenge singlecoil --data-path /home/harsimar/dataset/ --exp unet --out-dir reconstructions --checkpoint /home/harsimar/fastmriorig/fastMRI/epoch\=47.ckpt
+ 1567  tmux new --unetpp
+ 1568  tmux new-session --unetpp
+ 1569  C-b ?
+ 1570  C-b ? List Key Binidings
+ 1571  C-b ? List Key Bindings
+ 1572  ctrl-b c new window
+ 1573  C-b c new window
+ 1574  htop
+ 1575  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset --exp-dir checkpoint_0 --batch-size 10 --weight-decay 0.1
+ 1576  source activate harsimar
+ 1577  python models/unet/train_unet.py --challenge singlecoil --data-path /home/harsimar/dataset --exp-dir checkpoint_0 --batch-size 10 --weight-decay 0.1
+ 1578  nvidia-smi
+ 1579  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split val --checkpoint checkpoint/best_model.pt --challenge singlecoil --out-dir reconstructions_val --mask-kspace
+ 1580  ls
+ 1581  cd checkpoint_0
+ 1582  ls
+ 1583  cd ..
+ 1584  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split val --checkpoint checkpoint_0/best_model.pt --challenge singlecoil --out-dir reconstructions_val --mask-kspace
+ 1585  nvidia-smi
+ 1586  source activate harsimar
+ 1587  jupyter notebook --no-browser --port 8000
+ 1588  source activate harsimar
+ 1589  jupyter notebook --no-browser --port 8000
+ 1590  jupyter notebook --no-browser --port 8001
+ 1591  source activate harsimar
+ 1592  tmux ls
+ 1593  tmux attach -t unetpptrain
+ 1594  clear
+ 1595  cd fastmriold/FastMRI-Challenge/fastMRI/
+ 1596  ls
+ 1597  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split val --checkpoint checkpoint_0/best_model.pt --challenge singlecoil --out-dir reconstructions_val_0 --mask-kspace
+ 1598  clear
+ 1599  python models/unet/run_unet.py --data-path /home/harsimar/dataset --data-split val --checkpoint checkpoint_0/best_model.pt --challenge singlecoil --out-dir reconstructions_val_0 --mask-kspace
+ 1600  ls
+ 1601  cd reconstructions_val_0/
+ 1602  ls
+ 1603  python common/evaluate.py --target-path /home/harsimar/dataset/singlecoil_val/ --predictions-path reconstructions_val_0 --challenge singlecoil
+ 1604  cd ..
+ 1605  python common/evaluate.py --target-path /home/harsimar/dataset/singlecoil_val/ --predictions-path reconstructions_val_0 --challenge singlecoil
+ 1606  python models/unet/run_unet.py --data-path /home/harsimar/dataset/ --data-split test --checkpoint checkpoint_0/best_model.pt --challenge singlecoil --out-dir reconstructions_test_0
+ 1607  cd reconstructions_test_0/
+ 1608  ls
+ 1609  cd
+ 1610  clear
+ 1611  cd fastmriold/FastMRI-Challenge/fastMRI/
+ 1612  ls
+ 1613  tensorboard --logdir= / --bind-all
+ 1614  tensorboard serve --logdir= / --bind-all
+ 1615  tensorboard serve --logdir= / --bind_all
+ 1616  tensorboard serve --logdir / --bind_all
+ 1617  ls
+ 1618  cd checkpoint_0
+ 1619  ls
+ 1620  tensorboard serve --logdir summary/ --bind_all
+ 1621  exit
+ 1622  source activate harsimar
+ 1623  nvidia-smi
+ 1624  clear
+ 1625  jupyter notebook --no-browser --port 8000
+ 1626  clear
+ 1627  jupyter notebook --no-browser --port 8002
+ 1628  source activate harsimar
+ 1629  ls
+ 1630  rm -r NVIDIA_CUDA-10.1_Samples/
+ 1631  ls
+ 1632  cd project/
+ 1633  ls
+ 1634  source activate harsimar
+ 1635  ls
+ 1636  cp fastmriold/ fastmriold2/
+ 1637  python
+ 1638  ls
+ 1639  cd fastmriold/
+ 1640  ls
+ 1641  cd FastMRI-Challenge/fastMRI/
+ 1642  ls
+ 1643  tmux -l
+ 1644  tmux ls
+ 1645  tmux
+ 1646  source activate harsimmar
+ 1647  source activate harsimar
+ 1648  jupyter notebook --no-browser --port=8000
+ 1649  jupyter notebook --no-browser --port=8003
+ 1650  ls
+ 1651  mkdir harsimardata
+ 1652  ls
+ 1653  mv -v ~/dataset/* ~/harsimardata/
+ 1654  ls
+ 1655  cd harsimardata/
+ 1656  ls
+ 1657  cd
+ 1658  mv ~/harsimardata/* ~/dataset/
+ 1659  ls
+ 1660  cd dataset/
+ 1661  ls
+ 1662  cd
+ 1663  mv ~/dataset/ ~/harsimardata/
+ 1664  ls
+ 1665  cd harsimardata/
+ 1666  ls
+ 1667  cd dataset/
+ 1668  ls
+ 1669  cd 
+ 1670  ls
+ 1671  mv ~/fastmriold/ ~/harsimardata/
+ 1672  mv ~/fastmriorig/ ~/harsimardata/
+ 1673  ls
+ 1674  cd ~/bagchi_code/ ~/harsimardata/
+ 1675  cd
+ 1676  mv ~/bagchi_code/ ~/harsimardata/
+ 1677  ls
+ 1678  mv ~/project/ ~/hars
+ 1679  ls
+ 1680  cd hars
+ 1681  ls
+ 1682  cd
+ 1683  mv ~/hars/ ~/harsimardata/
+ 1684  ls
+ 1685  cd harsimardata/
+ 1686  ls
+ 1687  cd
+ 1688  apt-get install samba
+ 1689  sudo apt-get install samba
+ 1690  clea
+ 1691  clear
+ 1692  sudo apt install nfs-kernel-server
+ 1693  sudo apt-get update
+ 1694  ls -l
+ 1695  ls -l --block-size=M
+ 1696  cd harsimardata/
+ 1697  ls
+ 1698  ls -l
+ 1699  du
+ 1700  stat
+ 1701  clear
+ 1702  ls
+ 1703  sudo du -sh
+ 1704  cd
+ 1705  sudo du -sh /harsimardata
+ 1706  ls
+ 1707  du -sh /home/harsimar/harsimardata/
+ 1708  ls
+ 1709  sudo apt-get install gvfs-backend
+ 1710  sudo apt-get install gvfs-backends
+ 1711  sudo apt install vsftpd
+ 1712  nvidia-smi
+ 1713  cd b
+ 1714  cd harsimardata/
+ 1715  cd bagchi_code/
+ 1716  pwd
+ 1717  ls
+ 1718  cd harsimardata/
+ 1719  ls
+ 1720  exit
+ 1721  source activate harsimar
+ 1722  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/dataset --exp-dir checkpoint_resnet --batch-size 10 --weight-decay 0.1
+ 1723  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50 
+ 1724  export PATH=~/anaconda3/bin:$PATH
+ 1725  source activate harsimar
+ 1726  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50
+ 1727  cd project/fastMRI/models/unet/
+ 1728  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50
+ 1729  screen
+ 1730  screen
+ 1731  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50
+ 1732  screen -r
+ 1733  screen 184169
+ 1734  screen -r
+ 1735  screen 184266.pts-2.harsimar
+ 1736  screen -r
+ 1737  screen -r 184266.pts-2.harsimar
+ 1738  screen -r
+ 1739  export PATH=~/anaconda3/bin:$PATH
+ 1740  source activate harsimar
+ 1741  screen
+ 1742  screen -r
+ 1743  sftp://
+ 1744  sftp
+ 1745  sftp harsimar@172.26.1.2015
+ 1746  sftp harsimar@172.26.1.205
+ 1747  ls
+ 1748  nfs
+ 1749  nfs-common
+ 1750  sudo apt-get install nfs-common
+ 1751  sudo dpkg --configure 0a
+ 1752  sudo dpkg --configure -a
+ 1753  sudo apt-get install -f
+ 1754  sudo apt-get update
+ 1755  sudo apt-get install -f
+ 1756  nfs-kernel-server
+ 1757  sudp apt install nfs-kernel-server
+ 1758  sudo apt install nfs-kernel-server
+ 1759  ps -aux
+ 1760  top
+ 1761  ps -aux
+ 1762  kill 139295
+ 1763  kill 139296
+ 1764  ps -aux
+ 1765  kill 184266
+ 1766  kill 192755
+ 1767  kill 192836
+ 1768  ps -aux
+ 1769  kill 184169
+ 1770  sudo apt install nfs-kernel-server
+ 1771  sudo apt-get -o Dpkg::Options::="--force-overwrite" install --fix-broken
+ 1772  source activate harsimar
+ 1773  sudo apt install nfs-kernel-server
+ 1774  scp
+ 1775  clear
+ 1776  scp
+ 1777  tmux 
+ 1778  tmux ls
+ 1779  tmux attach -t 0
+ 1780  exit
+ 1781  tmux ls
+ 1782  tmux attach -t 0
+ 1783  exit
+ 1784  ls
+ 1785  cd harsimardata/
+ 1786  ls
+ 1787  clear
+ 1788  exit
+ 1789  ls
+ 1790  sftp://harsimar@172.26.1.205
+ 1791  sftp harsimar@172.26.1.205
+ 1792  ssh harsimar@172.26.1.205
+ 1793  exit
+ 1794  scp -3 harsimar@172.26.1.212:/home/harsimar/harsimardata harsimar@172.26.1.205:/student_staff/harsimar/harsimardata
+ 1795  sudo apt-get install nfs-common
+ 1796  source activate harsimar
+ 1797  dfs
+ 1798  nfs
+ 1799  cleear
+ 1800  clear
+ 1801  nvidia-smi
+ 1802  sudo apt-get install nfs-common
+ 1803  clear
+ 1804  scp -3 harsimar@172.26.1.212:/home/harsimar/harsimardata harsimar@172.26.1.205:/student_staff/harsimar/harsimardata/
+ 1805  sudo nano /etc/fstab
+ 1806  ls
+ 1807  sudo mkdir /mnt/nfs-share
+ 1808  sudo mount -a
+ 1809  sudo nano /etc/fstab
+ 1810  sudo mount -a
+ 1811  sudo nano /etc/fstab
+ 1812  sudo mount -a
+ 1813  sudo nano /etc/fstab
+ 1814  sudo mount -a
+ 1815  sudo mount 
+ 1816  ls
+ 1817  sudo mount -a
+ 1818  sudo nano /etc/fstab
+ 1819  clear
+ 1820  sudo mount -a
+ 1821  sudo nano /etc/fstab
+ 1822  sudo mount -a
+ 1823  ls
+ 1824  sudo mkdir /mnt/san
+ 1825  sudo nano /etc/fstab
+ 1826  sudo mount -a
+ 1827  sudo mount
+ 1828  clear
+ 1829  ls
+ 1830  sudo su
+ 1831  ls
+ 1832  sudo mount -a
+ 1833  sudo mount 
+ 1834  sudo nano /etc/fstab
+ 1835  clear
+ 1836  sudo nano /etc/fstab
+ 1837  sudo mount -a
+ 1838  sudo nano /etc/fstab
+ 1839  sudo mount -a
+ 1840  scp -3 harsimar@172.26.1.212:/home/harsimar/harsimardata harsimar@172.26.1.205:/student_staff/harsimar/harsimardata/
+ 1841  clear
+ 1842  scp -3 harsimar@172.26.1.212:/home/harsimar/history.txt harsimar@172.26.1.205:/student_staff/harsimar/harsimardata/
+ 1843  scp -3 -v harsimar@172.26.1.212:/home/harsimar/harsimardata  harsimar@172.26.1.205:/student_staff/harsimar/
+ 1844  scp -3 -v -r harsimar@172.26.1.212:/home/harsimar/harsimardata  harsimar@172.26.1.205:/student_staff/harsimar/
+ 1845  exit
+ 1846  ls
+ 1847  cd harsimardata/
+ 1848  ls
+ 1849  cd fastmriold/
+ 1850  ls
+ 1851  nvidia-smi
+ 1852  tmux ls
+ 1853  tmux attach -t 0
+ 1854  tmux ls
+ 1855  tmux new
+ 1856  ls
+ 1857  cd harsimardata/
+ 1858  ls
+ 1859  cd fastmriold/
+ 1860  ls
+ 1861  cd FastMRI-Challenge/
+ 1862  ls
+ 1863  cd
+ 1864  tmux ls
+ 1865  tmux attach -t 0
+ 1866  tmux ls
+ 1867  exit
+ 1868  ls
+ 1869  tmux ls
+ 1870  tmux attach -t 0
+ 1871  ls
+ 1872  tmux ls
+ 1873  tmux attach -t 0
+ 1874  exit
+ 1875  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50
+ 1876  ls
+ 1877  cd FastMRI-Challenge/
+ 1878  source activate harsimar
+ 1879  ls
+ 1880  cd fastMRI/
+ 1881  ls
+ 1882  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50
+ 1883  ls
+ 1884  python3 train_unet.py --mode train --challenge singlecoil --data-path /home/harsimar/dataset --exp unet --mask-type random --batch-size 24 --lr 0.04 --exp-dir /home/harsimar/project/results --num-epochs 50 
+ 1885  ls
+ 1886  history> history.txt
+ 1887  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1888  ls
+ 1889  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1890  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1891  clear
+ 1892  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1893  cler
+ 1894  clear
+ 1895  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1896  cler
+ 1897  clera
+ 1898  clear
+ 1899  python models/unet/train_unet_resnest.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_resnest --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1900  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1901  clear
+ 1902  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1903  clear
+ 1904  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1905  clear
+ 1906  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1907  clear
+ 1908  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1909  clear
+ 1910  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1911  clear
+ 1912  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1913  clear
+ 1914  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1915  clear
+ 1916  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1917  clear
+ 1918  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1919  cler
+ 1920  clear
+ 1921  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1922  clear
+ 1923  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1924  clear
+ 1925  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1926  clear
+ 1927  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1928  clear
+ 1929  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1930  clear
+ 1931  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1932  clear
+ 1933  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1934  clear
+ 1935  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1936  clear
+ 1937  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1938  clear
+ 1939  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1940  clear
+ 1941  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1942  clear
+ 1943  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1944  clear
+ 1945  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 10 --weight-decay 0.1 --lr 0.04
+ 1946  clear
+ 1947  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 16 --weight-decay 0.1 --lr 0.04
+ 1948  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 24 --weight-decay 0.1 --lr 0.04
+ 1949  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.04
+ 1950  clear
+ 1951  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.04
+ 1952  clear
+ 1953  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.04
+ 1954  clear
+ 1955  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1956  clear
+ 1957  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1958  cler
+ 1959  clear
+ 1960  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1961  clear
+ 1962  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1963  clear
+ 1964  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1965  clear
+ 1966  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1967  clear
+ 1968  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1969  clear
+ 1970  ls
+ 1971  rm checkpoint_efficientnet/
+ 1972  rm -r checkpoint_efficientnet/
+ 1973  ls
+ 1974  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1975  clear
+ 1976  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1977  clear
+ 1978  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1979  clear
+ 1980  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1981  clear
+ 1982  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 1983  clear
+ 1984  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1985  clear
+ 1986  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1987  clear
+ 1988  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1989  clear
+ 1990  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1991  clear
+ 1992  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1993  clear
+ 1994  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1995  clear
+ 1996  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1997  clear
+ 1998  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 1 --weight-decay 0.1 --lr 0.004
+ 1999* exit   
+ 2000  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 2001  source activate harsimar
+ 2002  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 2003  ls
+ 2004  cd F
+ 2005  cd FastMRI-Challenge/
+ 2006  ls
+ 2007  cd fastMRI/
+ 2008  ls
+ 2009  clear
+ 2010  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 2011  clear
+ 2012  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 --weight-decay 0.1 --lr 0.004
+ 2013  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 
+ 2014  clear
+ 2015  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 
+ 2016  clear
+ 2017  ls
+ 2018  rm -r checkpoint_efficientnet/
+ 2019  l
+ 2020  ls
+ 2021  clear
+ 2022  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 
+ 2023  clear
+ 2024  rm -r checkpoint_efficientnet/
+ 2025  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 
+ 2026  clear
+ 2027  python models/unet/train_unet_efficientnet.py --challenge singlecoil --data-path /home/harsimar/harsimardata/dataset --exp-dir checkpoint_efficientnet --batch-size 20 
+ 2028  clear
+ 2029  history > history.txt
